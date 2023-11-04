@@ -1,0 +1,424 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+     font-family: "Montserrat", sans-serif;
+     color: #292929;
+}
+
+.body-text{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 1px -3px 13px 1px rgba(20,20,20,0.4);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: #292929;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 14px 16px;
+}
+
+.nav-links a:hover {
+      color: #5c4dce;
+}
+
+#intro{
+  
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-section{
+
+     padding: 20px;
+     padding-top: 185px;
+     padding-left: 50px;
+     padding-right: 70px;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.text-section p{
+    font-size: 15px;
+}
+
+.top{
+    background-color: #5c4dce;
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 25px;   
+}
+
+.text-section a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-section .fa{
+    color: white;
+    padding-right: 5px;
+}
+
+.image-section{
+
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding-top: 5px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.social-link-section{
+
+    justify-content: space-around;
+    width: 5%;
+    padding-top: 220px;
+}
+
+.social-link-section li{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+#about-me{
+    
+    background-color: #f4eaf554;
+    
+}
+
+#about-me h2{
+     font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.details{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.my-image{
+  
+    width: 30%;
+    padding: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.my-image img{
+   
+    background-color: white;
+}
+
+.more-details{
+   
+    width: 70%;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+.who-am-i h3{
+font-size: 25px;
+}
+
+.who-am-i p{
+   font-size: 15px; 
+text-align: justify;
+padding-bottom: 20px;
+}
+
+.why-me h3{
+    font-size: 25px;
+}
+
+.why-me h4{
+font-size: 20px;
+font-weight: bold;
+}
+
+.why-me p{
+    font-size: 13px; 
+text-align: justify;
+}
+
+.edu{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.edu1{
+  
+  width: 33%;
+  padding: 10px;  
+}
+
+.edu1 h5{
+    color: #5c4dce;
+     font-weight: bold;
+}
+
+.edu1 h6{
+    color: #676767;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.exp{
+    padding-top: 10px;
+}
+
+.work{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.work1{
+   
+  width: 33%;
+  padding: 10px; 
+}
+
+.work1 h5{
+    color: #5c4dce;
+     font-weight: bold;
+}
+
+.work1 h6{
+    color: #676767;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#gallery h2{
+     font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#gallery p{
+   font-size: 15px; 
+text-align: center;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+.scroll-container {
+  background-color: #464647;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container img {
+  padding: 10px;
+  width: 25%;
+height: 559px;
+}
+
+#sands h2{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.my-skills{
+    margin-left: 30px;
+    margin-right: 350px;
+}
+
+.my-skills h3{
+     font-size: 25px;
+}
+
+.my-skills p{
+    padding-top: 10px;
+     font-size: 15px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+   border-radius: 80px;   
+   height: 23px;
+
+}
+
+.skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #5c4dce;}
+.css {width: 85%; background-color: #5c4dce;}
+.ap {width: 80%; background-color: #5c4dce;}
+.mo {width: 70%; background-color: #5c4dce;}
+.bs {width: 60%; background-color: #5c4dce;}
+.gd {width: 55%; background-color: #5c4dce;}
+.js {width: 45%; background-color: #5c4dce;}
+.php {width: 30%; background-color: #5c4dce;}
+
+.strengths{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.strengths h3{
+     font-size: 25px;
+     padding-bottom: 10px;
+     padding-top: 15px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+    margin: 10 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+ }
+
+.st1{
+    padding-top: 20px;
+}
+
+.card .fa {
+    font-size:50px;
+}
+
+#footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  margin-top: 20px;
+}
+
+#footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+#footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+#footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+#footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+#footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+#footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+
+
+#footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+#footer-distributed p.footer-links a:hover{text-decoration:underline;}
